@@ -5,7 +5,7 @@ Part of Udacity sensor fusion nanodegree
 
 [//]: # (Image References)
 
-[image1]: ./images/FFT2.jpg "2D FFT"
+[image1]: ./images/FFT2.png "2D FFT"
 [image2]: ./images/2D_CFAR.jpg "2D CFAR"
 [image3]: ./images/FFT1.jpg "FFT"
 [image4]: ./images/project_layout.png "Project Layout"
