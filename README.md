@@ -22,17 +22,17 @@ This project develops a Radar target generation and detection system as part of 
 ## FMCW Waveform Design
 In this project, an FMCW (Frequency-Modulated Continuous Wave) Radar has been modeled. The FMCW signal is varied in frequency over time, with the signal increasing and decreasing in a controlled manner. Based on the radar specifications provided in the image below, key FMCW wave characteristics, such as Chirp Time, Bandwidth, and Slope, can be calculated. Chirp Time is defined as the duration during which one upward or downward frequency sweep is transmitted by the radar. Bandwidth is represented by the range of frequencies covered by the signal, and Slope is calculated as the ratio of Bandwidth to Chirp Time.
 
-![alt text][image8]
+![alt text][image7]
 
 ## Target Generation and Simulation
 The target starts at a range of 80 meters with a velocity of -70 meters per second, assuming a constant velocity throughout the simulation. To model the interaction between the radar and the target, the simulation iterates through an array of evenly spaced timestamps, updating the target's range at each interval. The transmitted and received signals are described by the equations provided in the image below. The received signal is a delayed version of the transmitted one, with the delay representing the time taken for the signal to travel to the target and back. By combining the transmitted and received signals, the beat signal is produced, containing information on both range and velocity (Doppler shift). 
 
-![alt text][image7]
+![alt text][image6]
 
 ## Range first FFT
 Applying a 1D FFT to the beat signal along the range axis allows us to extract the target's original position information.
 
-![alt text][image6]
+![alt text][image3]
 
 Output of 2D-FFT
 
