@@ -192,7 +192,6 @@ offset = 1.2;
 %signal under CUT with this threshold. If the CUT level > threshold assign
 %it a value of 1, else equate it to 0.
 
-
    % Use RDM[x,y] as the matrix from the output of 2D FFT for implementing
    % CFAR
 RDM = RDM/max(max(RDM));
@@ -223,7 +222,6 @@ for i = Tr+Gr+1:(Nr/2)-(Gr+Tr)
         
     end
 end
-
 
 
 % *%TODO* :
